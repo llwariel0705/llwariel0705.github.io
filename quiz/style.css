@@ -1,0 +1,86 @@
+body{
+   font-family: 'Corbel'
+}
+
+.start_btn,
+.info_box,
+.quiz_box,
+.result_box{
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.start_btn button{
+    font-size: 25px;
+    color: #000000;
+    padding: 15px 30px;
+    background:aqua;
+    cursor: pointer;
+}
+
+.info_box{
+    width: 540px;
+}
+
+.info_box .buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.info_box .buttons button{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.quiz_box{
+    width: 550px;
+    background: rgb(128, 125, 125);
+}
+
+.quiz_box header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quiz_box header .p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.result_box{
+    background: #fff;
+    display: flex;
+    padding: 30px 30px;
+    width: 450px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result_box button{
+    height: 40px;
+    padding: 0 13px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 5px;
+    background: #007bff;
+    display: flex;
+    margin: 20px 0;
+}
+
+.result_box .buttons button{
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 18px;
+}

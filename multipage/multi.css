@@ -1,0 +1,154 @@
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    background-color:whitesmoke;
+
+}
+
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #000;
+    margin-top:.9rem;
+    margin-bottom:.9rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration:underline;
+    background-color:whitesmoke;
+}
+
+li{
+   
+    text-align: left;
+    text-transform:capitalize;
+}
+
+
+img{
+    width:400px;
+    margin-bottom:1rem;
+}
+
+button{
+    color: orange;
+    background-color: purple;
+}
+
+
+                        /* NEWS */
+.news{
+    font-family: 'Corbel';
+    font-size: 1.5rem;
+    line-height: 1.5;
+    background: #fafafa;
+    width:1000px;
+    background-color:grey;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    border:2px solid black;
+}
+
+.prompt{
+background-color:blue;
+text-transform:uppercase;
+text-align:center;
+}
+
+.heading-news{
+   
+    font-size:3rem;
+   
+}
+
+
+video{
+    width:50%;
+    margin-bottom:1rem;
+}
+
+
+
+            /*INDEX PAGE */
+.learni video{
+     width:480px;
+     height:300px;
+ }
+
+.home{
+    font-size:1.2rem;
+    margin-left:3px;
+    margin-right:3px;
+    margin-top:1px;
+}
+
+.second{
+    border-top:2px solid purple;
+    font-size:1.3rem;
+    text-align:center;
+}
+
+.more{
+    margin:1rem;
+    text-align:center;
+    color:blue;
+    background-color:#000;
+}
+
+a {
+    color:brown;
+    background-color:grey;
+}
+
+
+.navigation{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+    flex-flow:column wrap;    
+}
+
+.navigation li a {
+    display:flex;
+    justify-content:center;
+    background-color:darkslateblue;
+}
+
+
+
+
+                            /*PRODUCT  */
+.product{
+    background-color:black;
+    color:white;
+    border:2px solid aqua;
+
+}
+.course{
+    margin-top:2rem;
+    
+}
+
+.course li{
+display:grid;
+place-content:center;
+background-color:grey;
+color:black;
+border:2px solid white; 
+}
+
+
+                                /*QUIZ  */
+
+.quiz a{
+    color:white;
+    background-color:red;
+    border:3px solid yellow;
+}
+
